@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %} - Profile{% endblock %}
+
+{% block body_id %}class="non-game"{% endblock %}
+
+{% block main %}
+<div class="main">
+    <div class="container">
+
+        <div style="margin-top: 1em;">{{ user['username'] }}</div>
+        <div style="margin-top: 1em;">Dust: {{ user['points'] }}</div>
+
+        <div style="margin-top: 1em;">Total Dust Collected: {{ user['total_points'] }}</div>        
+        <div style="margin-top: 1em;">Total Aliens Helped: {{ user['total_helped'] }}</div>
+        <div style="margin-top: 1em;">Average Dust per Encounter: {{ average_score }}</div>
+        <div style="margin-top: 1em;">Total unique words used: {{ words_used }}</div>
+        
+        <table id="games-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Best Encounters</th>
+                    <th>Dust Collected</th>
+                    <th>Aliens Helped</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for game in games %}
+                <tr>
+                    <td>{{ game['timestamp'] }}</td>
+                    <td>{{ game['points'] }}</td>
+                    <td>{{ game['helped'] }}</td>
+                </tr>
+                {% endfor %}  
+            </tbody>
+        </table>
+        <table id="words-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Favorite Words</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for favorite in favorites %}
+                <tr>
+                    <td>{{ favorite['word'] }}</td>
+                    <td>{{ favorite['count'] }}</td>
+                </tr>
+                {% endfor %}  
+            </tbody>
+        </table>
+        <table id="letters-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Letters</th>
+                    <th>Frequency</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for letter in letters %}
+                <tr>
+                    <td>{{ letter['letter'] }}</td>
+                    <td>{{ letter['count'] }}</td>
+                </tr>
+                {% endfor %}  
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
