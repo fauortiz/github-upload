@@ -6,7 +6,7 @@ from time import sleep
 from werkzeug.security import check_password_hash, generate_password_hash
 
 SLEEP_TIME = 20 / 1000
-DB_NAME = "sqlite:///shiristory_2.db"
+DB_NAME = "sqlite:///appdb_2.db"
 
 # decorator for user login managem  ent
 from functools import wraps
