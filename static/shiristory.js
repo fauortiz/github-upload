@@ -82,7 +82,7 @@ function setVolume(category, value) {
 }
 
 // initializes music
-music = new Audio("static/music/Potsu_Neon_Tokyo.mp3");
+music = new Audio("static/music/chill by sakura Hz [Music promoted by Audio Library].mp3");
 music.volume = gameData['musicVolume'];
 
 // initializes hum
