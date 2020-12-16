@@ -82,7 +82,7 @@ function setVolume(category, value) {
 }
 
 // initializes music
-music = new Audio("static/music/chill by sakura Hz [Music promoted by Audio Library].mp3");
+music = new Audio("static/music/chill_by_sakura_Hz.mp3");
 music.volume = gameData['musicVolume'];
 
 // initializes hum
@@ -585,8 +585,8 @@ function startGame() {
 
   // tick #timer down every second, and calls resolveGame on timeout
   var startTime = new Date();
-  var timeLimit = Math.round(music.duration*1000);
-  // var timeLimit = 15000;
+  // var timeLimit = Math.round(music.duration*1000);
+  var timeLimit = 60*1000;
   var timeLeft = 0;
   var timerDisplay = document.querySelector("#timer");
   function gameTimer() {
@@ -747,6 +747,7 @@ window.addEventListener("load", function () {
     xhttp.send();  
   }, 1000);
   
+  focusWordBox();
 });
 
 // if game is ongoing, evaluates #word-form, else, starts the game

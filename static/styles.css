@@ -607,9 +607,11 @@ scrollbar-width: none;  /* Firefox */
       "volume"
       "rules"
       "."; */
+      font-size: 1.5em;
   }
   .volume-slider {
     width: 40%;
+    font-size: 1rem;
   }
 }
 /* small screens */

@@ -61,7 +61,7 @@ def index():
     id=session['user_id'])[0]['username']
     return render_template("game.html", username=username)
 
-    
+
 
 
 
