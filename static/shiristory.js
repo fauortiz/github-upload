@@ -586,7 +586,7 @@ function startGame() {
   // tick #timer down every second, and calls resolveGame on timeout
   var startTime = new Date();
   // var timeLimit = Math.round(music.duration*1000);
-  var timeLimit = 60*1000;
+  var timeLimit = 120*1000;
   var timeLeft = 0;
   var timerDisplay = document.querySelector("#timer");
   function gameTimer() {
