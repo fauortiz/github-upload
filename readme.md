@@ -9,6 +9,8 @@ Your goal is to earn as many points as you can by typing a chain of words that a
 
 This was coded by me as my final project for the web track of CS50x 2020, so please be kind!
 
+link to the code (without the binaries) - https://github.com/fauortiz/shiristory
+
 ## How to Play
 
 ![gameplay demo](readme.gif)
@@ -42,13 +44,14 @@ Quickly chain your words while also fulfilling prompts to be able to reach high 
 You can create an account and log in, and this will keep a record all of your games.
 In your profile page, you can see data on all of your games, such as your highest scoring games, or your most frequently used words.
 
+
 ## About the project (and learnings)
 
 ### Concept
 
 The idea was to make something that was sufficiently complex enough that it would force me to explore a lot of functionality fast, but I also wanted to make something I'll probably never get a chance to make at work. It started out as a simple word chain game that tested the typing ability and active vocabulary of players, but the design and scope evolved over time.
 
-In line with the web track, I managed to learn a lot about Javascript, the DOM, AJAX, a ton about CSS, and more SQL, while also enjoying my time spent doing so.
+In line with the web track, I managed to learn a lot about Javascript, the DOM, AJAX, JSON, a ton about CSS, SQL and race conditions, and even about virtual environments and using VSCode, and a little about Git and Github.
 
 ### Built With
 
@@ -87,13 +90,15 @@ The primary reason why it remains as such is because the required changes are ou
 
 I tried to use Bootstrap for most of the site, but it really didn't lend itself to the mostly static layout of a browser game and ended up becoming more of a crutch. This also allowed for more precise control of the layout without having to override Bootstrap all the time. I also learned and made prominent use of a combination of grid and flex.
 
-### List of issues pending further development
+### Future Scope
 
-* The UI/UX/game feel needs a LOT more work
+* The UI and game feel need a lot more work
+* Design richer game mechanics and more content
 * It's not currently hosted online
 * The wordlist database being server-side is suboptimal
-* Cheating by tampering with the game's JS code is possible
-* I tried, but the code is unorganized, without a design pattern (like MVC)
+* Cheating by tampering with the game's JS code is very doable
+* The code is unstructured, lacking a design pattern (like MVC)
+
 
 ## Assets used
 
@@ -117,6 +122,8 @@ All these assets below are used for this non-commercial version of the game.
   * loopable hum by -Patrick- - https://freesound.org/people/-Patrick-/sounds/466451/
   * 8-bit explosion by jhyland - https://freesound.org/people/jhyland/sounds/539668/
 
+
 ## Author
 
 The game was written by me, Francis Ortiz, for CS50x. Thank you for reading!
+
