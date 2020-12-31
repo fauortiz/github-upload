@@ -7,7 +7,7 @@ _It's the year 20XX. You are being pestered by tiny aliens who want to learn abo
 
 Your goal is to earn as many points as you can by typing a chain of words that all start with the last letter of the previous word. With this early version of the game, simply aim for your highest score!
 
-This was coded by me as my final project for the Web track of CS50x 2020, so please be kind!
+This was coded by me as my final project for the web track of CS50x 2020, so please be kind!
 
 ## How to Play
 
@@ -22,7 +22,7 @@ _A portal to the alien dimension will appear and the aliens will rush in._
 #### General Rules
 * Each word you type and send earns you points equivalent to the length of that word.
 * Each consecutive word must begin with the last letter of the previous word.
-* Typing invalid words incurs no penalties aside from the time lost in committing the error.
+* Typing invalid words incurs no penalties apart from the time lost in committing the error.
 * You have 2 minutes to earn as many points as you can.
 
 #### Ending the game
@@ -46,9 +46,9 @@ In your profile page, you can see data on all of your games, such as your highes
 
 ### Concept
 
-The idea was to make something that would force me to explore a lot of functionality fast, but I also wanted to make something I'll probably never get a chance to make at work. It started out as a simple word chain game, but the scope got larger as I went on.
+The idea was to make something that was sufficiently complex enough that it would force me to explore a lot of functionality fast, but I also wanted to make something I'll probably never get a chance to make at work. It started out as a simple word chain game that tested the typing ability and active vocabulary of players, but the design and scope evolved over time.
 
-I made a game despite being on the web track, but I managed to learn a lot about Javascript, the DOM, AJAX, a ton about CSS, and more SQL, while also enjoying my time spent doing so.
+In line with the web track, I managed to learn a lot about Javascript, the DOM, AJAX, a ton about CSS, and more SQL, while also enjoying my time spent doing so.
 
 ### Built With
 
