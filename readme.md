@@ -9,7 +9,8 @@ Your goal is to earn as many points as you can by typing a chain of words that a
 
 This was coded by me as my final project for the web track of CS50x 2020, so please be kind!
 
-link to the code (without the binaries) - https://github.com/fauortiz/shiristory
+* 2 minute overview video for the project - https://youtu.be/I46j9JdJcho
+* link to the code (without the binaries) - https://github.com/fauortiz/shiristory
 
 ## How to Play
 
