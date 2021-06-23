@@ -1,3 +1,4 @@
+![gameplay demo](readme.gif)
 
 # SHIRISTORY
 
@@ -13,8 +14,6 @@ This was coded by me as my final project for the web track of CS50x 2020, so ple
 * link to the code (without the binaries) - https://github.com/fauortiz/shiristory
 
 ## How to Play
-
-![gameplay demo](readme.gif)
 
 #### Starting the game
 
